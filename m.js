@@ -1,3 +1,4 @@
+<script>
 fetch("/buy", {
   method: "POST",
   headers: {
@@ -25,3 +26,4 @@ fetch("/buy", {
   }
 })
 .catch(error => console.error("Error during the process:", error));
+</script>
